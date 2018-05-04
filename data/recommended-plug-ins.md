@@ -1,0 +1,5 @@
+- iThemes Security
+- Easy WP SMTP
+- WP Migrate DB
+- Email Login
+- WP Super Cache

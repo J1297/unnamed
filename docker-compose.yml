@@ -1,0 +1,95 @@
+version: "3"
+
+services:
+  wordpress-nginx:
+    build:
+      context: ./
+      dockerfile: ./docker/nginx/Dockerfile   #file in dem die Änderungen für den jeweiligen Container stehen
+      args:
+        USERNAME: www-data                    #??
+        USER_ID: 1000
+        GROUP_ID: 1000
+    container_name: wordpress-nginx
+    restart: on-failure
+    ports:
+      - 8080:8080                             #wird von Port 8080(local) an 8080(container) weitergegeben
+
+      - 443:443
+    links:
+      - wordpress-php:php                     #Verbindung zwischen containern; gibt Möglichkeit für Container miteinander zu kommunizieren
+      - wordpress-phpmyadmin:phpmyadmin
+      - wordpress-mysql-mariadb:mysql
+    depends_on:
+      - wordpress-php                           #müssen gestartet werden bevor dieser container geladen wird
+      - wordpress-mysql-mariadb                 #Aufbau der Homepage nur möglich wenn folgende Prozesse bereits gestartet wurden
+      - wordpress-phpmyadmin
+    volumes:
+      - ./docker/nginx/config/:/etc/nginx/:rw   #wird aus lokalem laufwerk in virtuelles netzlaufwerk kopiert
+      - ./app:/var/www/app                      #Volumes werden immer aktualisiert
+      - ./data/logs/nginx:/var/log/nginx
+      - ./docker/.certs:/etc/ssl/certs
+
+  wordpress-mysql-mariadb:
+    image: mariadb                              #image: wird genau so übernommen, deshalb kein eigenes Docker File
+    container_name: wordpress-mysql-mariadb
+    restart: on-failure
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+    expose:
+      - 3307                                    #dieser container wartet auf ausgabe von Daten an Port 3307(local)
+    ports:
+      - 3307:3306
+    volumes:
+      - ./data/logs/mariadb:/var/log/mysql      #von data/logs/mariadb(local) über Port 3307 nach var/log/mysql (server)
+      - ./docker/mariadb/conf.d:/etc/mysql/conf.d   #config zu config datei übergeben
+
+  wordpress-php:
+    build:                                      #Änderungen ??
+      context: ./
+      dockerfile: ./docker/php/Dockerfile       #Angabe des Pfads vom Dockerfile, enthält Änderungen für den Standartcontainer
+    container_name: wordpress-php
+    environment:
+      - SSH_AUTH_SOCK=/ssh-agent              #????
+    restart: on-failure                       #Neu starten falls ein error den container beendet/stoppt
+    expose:
+        - 9000                                #Container hört auf Port 9000
+    depends_on:
+      - wordpress-mysql-mariadb               #muss gestartet werden bevor dieser container aufgerufen wird
+    links:
+      - wordpress-mysql-mariadb:mysql
+    working_dir: /var/www/app                 #definiert das Verzeichnis in dem "gearbeitet" wird
+    volumes:
+      - ./app:/var/www/app                    #wird aus lokalem in netzlaufwerk kopiert
+      - ./docker/.ssh:/root/.ssh              #docker projektordner wird als rootdirectory angegeben?
+      - ./data/logs/php/php-errors.log:/var/log/php/php-errors.log  #error log übergeben
+
+  wordpress-phpmyadmin:
+    build:
+      dockerfile: ./docker/phpmyadmin/Dockerfile
+      context: ./                           # ????
+    container_name: wordpress-phpmyadmin
+    restart: on-failure
+    depends_on:
+      - wordpress-mysql-mariadb             #muss gestartet werden bevor dieser container startet, datenbank wird immer als erstes gestartet
+    links:
+      - wordpress-mysql-mariadb:mysql       #steht in jedem container, warum??
+
+    expose:
+        - 8181                                #hört auf Port 8181 (local)
+    volumes:
+     - ./docker/phpmyadmin/config.user.inc.php:/etc/phpmyadmin/config.user.inc.php  #userdaten werden an server übergeben?
+    ports:
+      - 8181:80                             #daten werden von port 8181(lokal) an 80(container) übergeben
+
+    environment:                            #???
+      PMA_USER: wordpress
+      PMA_PASSWORD: wordpress
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+
+volumes:                                    # ??????????
+  wordpress-mysql-mariadb:

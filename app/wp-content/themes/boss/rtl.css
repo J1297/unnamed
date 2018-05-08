@@ -1,0 +1,225 @@
+body,html{
+	direction: rtl;
+	unicode-bidi: embed;	
+}
+
+caption, th, td {
+	text-align: right;
+}
+
+.content p{
+	text-align: right;
+}
+
+.content ul li,
+.content ol li{
+	text-align: right;
+}
+
+
+
+.content  ul:not([class]) li:before {
+	padding-left: 6px;
+	padding-right: 0px;
+	float: right;
+	content: '\f104';
+}
+
+.content ul:not([class]) li ul{
+	padding-left: 0px;
+	padding-right: 14px;
+}
+
+
+blockquote p{
+	text-align: center;
+}
+
+
+
+.footer-right{
+	float: left;
+	text-align: left;	
+}
+
+.footer-left{
+	float: right;
+}
+
+.footer-right i.fa{
+	padding-right: 30px;
+	padding-left: 0px;
+}
+
+
+.content h1.deco-side,
+.content h2.deco-side,
+.content h3.deco-side,
+.content h4.deco-side,
+.content h5.deco-side,
+.content h6.deco-side{
+	border-left: 0px;
+	border-right: 3px solid #990000;
+	padding-left: 0px;
+	padding-right: 20px;
+}
+
+
+a.button::after, .content a.button::after, .content p a.button::after, .content a.dp-button::after{
+	content: '';
+}
+
+a.button::before, .content a.button::before, .content p a.button::before, .content a.dp-button::before{
+	content: '\f078';
+	font-size: 14px;	
+	font-family: 'FontAwesome';
+	vertical-align: middle;
+	text-align: left;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+
+
+
+
+.dp_widget_cats ul li::before, .widget_categories ul li::before, .widget_archive ul li::before, .widget_meta ul li::before, .blogroll li::before, .widget_pages li::before, .widget_recent_entries ul li::before, .widget_nav_menu li::before, .widget_rss li::before{
+	font-family: "FontAwesome";
+	content: '\f105';
+	font-size: 14px;
+	color: #999;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+}
+
+.dp_widget_cats ul li::after, .widget_categories ul li::after, .widget_archive ul li::after, .widget_meta ul li::after, .blogroll li::after, .widget_pages li::after, .widget_recent_entries ul li::after, .widget_nav_menu li::after, .widget_rss li::after{
+	content: '';
+}
+
+
+.widget-title{
+	padding-left: 0px;	
+	padding-right: 15px;	
+}
+
+.widget-title:before,
+.dp_widget_posts .title::after{
+	right: 0px;
+}
+
+.dp_widget_posts .thumb{
+	float: right;
+	margin-left: 20px;
+	margin-right: 0px;
+}
+
+.blog-masonry .head{
+	padding-left: 0px;
+	padding-right: 20px;
+	border-left: 0px;
+	border-right-width: 3px;
+	border-right-style: solid;
+}
+
+.blog-masonry blockquote{
+	text-align: right;
+}
+
+.blog-masonry .categories i.fa{
+	margin-right: 0px;
+	margin-left: 5px;
+}
+
+.content p.pages-number{
+	text-align: center;
+}
+
+.content p.pages-right{
+	text-align: left;
+}
+.content p.pages-left{
+	text-align: right;
+}
+
+.content p.pages-right i.fa:before{
+	content: '\f104';
+}
+.content p.pages-left i.fa:before{
+	content: '\f105';
+}
+
+
+.blog .post-date{
+	float: right;
+	margin-left: 20px;
+	margin-right: 0px;
+}
+
+.content .tags i.fa{
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.content .tags b{
+	display: none;
+}
+
+
+.prev-post {
+    padding-right: 0%;
+    padding-left: 3%;	
+}
+
+.prev-post i.fa {
+    float: right;
+    margin-right: 0px;
+    margin-left: 15px;	
+}
+
+.prev-post i.fa:before{
+	content: '\f105';
+}
+
+
+.next-post {
+    padding-left: 0%;
+    padding-right: 3%;	
+	text-align: left;
+}
+
+.next-post i.fa {
+    float: left;
+    margin-left: 0px;
+    margin-right: 15px;	
+}
+
+.next-post i.fa:before{
+	content: '\f104';
+}
+
+
+.comments-title,
+#reply-title{
+	border-left: 0px;
+	border-right-width: 3px;
+	border-right-style: solid;
+	padding-left: 0px;
+	padding-right: 15px;
+}
+
+.comments-title span{
+	display: inline-block;
+}
+
+
+
+.content .commentlist .holder{
+	float: right;
+}
+
+.content .commentlist .avatar{
+	float: right;
+	margin-right: 0px;
+	margin-left: 20px;
+}

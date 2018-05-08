@@ -7,3 +7,10 @@
 2018/05/04 09:15:49 [error] 9#9: *287 open() "/var/www/app//wp-content/uploads/photo-gallery/thumb/Superman.png" failed (2: No such file or directory), client: 172.18.0.1, server: ~^(?<app>.+)\.wordpress\.local$, request: "GET /wp-content/uploads/photo-gallery/thumb/Superman.png HTTP/2.0", host: "localhost", referrer: "https://localhost/wp-admin/admin.php?page=galleries_bwg&task=edit"
 2018/05/04 09:41:37 [warn] 10#10: *440 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.18.0.1, server: ~^(?<app>.+)\.wordpress\.local$, request: "POST /wp-admin/async-upload.php HTTP/2.0", host: "localhost", referrer: "https://localhost/wp-admin/post-new.php?post_type=page"
 2018/05/04 09:42:39 [warn] 10#10: *440 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.18.0.1, server: ~^(?<app>.+)\.wordpress\.local$, request: "POST /wp-admin/async-upload.php HTTP/2.0", host: "localhost", referrer: "https://localhost/wp-admin/post-new.php?post_type=page"
+2018/05/04 14:40:34 [emerg] 1#1: unknown "app" variable
+2018/05/04 14:40:36 [emerg] 1#1: unknown "app" variable
+2018/05/04 14:40:37 [emerg] 1#1: unknown "app" variable
+2018/05/04 14:40:38 [emerg] 1#1: unknown "app" variable
+2018/05/04 14:40:40 [emerg] 1#1: unknown "app" variable
+2018/05/04 14:40:42 [emerg] 1#1: unknown "app" variable
+2018/05/04 14:40:47 [emerg] 1#1: unknown "app" variable

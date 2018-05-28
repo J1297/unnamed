@@ -10,10 +10,10 @@
 	}
 	
 	
-	
+	$post_ID = get_the_ID(); //+id="post-'. $post_ID.'" added
 	
 	print '
-	<section class="'.implode(' ',$boss_postclass).'">';
+	<section id="post-'. $post_ID.'" class="'.implode(' ',$boss_postclass).'">';
 			
 	
 			

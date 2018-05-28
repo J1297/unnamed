@@ -29,10 +29,15 @@ a:-webkit-any-link {
 
 .comments-title {
     color: green;
+    text-align: center;
+}
+
+.prev-next-post {
+    border-bottom: none;
 }
 
 .blog .post-title {
-    color:red ;
+    color:red;
 }
 
 .content .comment-author b{
@@ -46,4 +51,9 @@ a:-webkit-any-link {
 
 .header .menu li a {
     color: green;
+}
+
+.content p {
+    color: grey;
+    text-align: left;
 }

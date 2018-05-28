@@ -8,7 +8,7 @@
 	if(is_sticky()){
 		$boss_postclass[] = 'sticky';
 	}
-	
+        
 	print '
 	<article class="'.implode(' ',$boss_postclass).'">';
 					

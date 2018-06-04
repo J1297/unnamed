@@ -17,7 +17,11 @@ if (!defined('ABSPATH')) {
 
 add_action("wp_head", "counter");
 
+<<<<<<< Updated upstream
     function toggle(int $postID) {
+=======
+function toggle(int $postID) {
+>>>>>>> Stashed changes
     $toggle = Service::getInstance()->getSessionStoredValue('toggle', []);
     $toggled = boolval($toggle[$postID]);
     //foreach ($toggle as $key =>$value){ //one button closes another one if open
@@ -117,7 +121,10 @@ class Service {
         $current_views[$postID] = ++$count;
         Service::getInstance()->setDBStoredValue('awepop_views', json_encode($current_views));
     }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 }
 
 function counter() {

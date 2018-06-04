@@ -1,268 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73624fbd-ccbb-4379-a196-8de461840fd6" name="Default" comment="everything installed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/_inc/akismet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/_inc/akismet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/_inc/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/_inc/img/logo-full-2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/akismet.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/class.akismet-admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/class.akismet-cli.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/class.akismet-rest-api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/class.akismet-widget.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/class.akismet.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/views/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/views/get.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/views/notice.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/views/start.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/views/stats.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/akismet/wrapper.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/child-theme-configurator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/css/chldthmcfg.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/css/iw-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/css/iwrm-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/css/lilaea-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/css/pro-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/classes/Admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/classes/Analysis.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/classes/Core.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/classes/Packer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/classes/Preview.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/classes/UI.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/classes/Upgrade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/addl_css.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/addl_panels.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/addl_tabs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/backup.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/backups.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/current-theme.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/debug-toggle.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/file-form-buttons.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/file.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/fileform.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/files.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/images.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/notices.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/parent-child.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/query-selector.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/related.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/rule-value.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/settings-errors.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/tabs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/theme-menu.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/themepreview.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/webfonts.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/forms/zipform.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/help/de_DE.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/includes/help/en_US.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/js/chldthmcfg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/js/chldthmcfg.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/js/ctcgrad.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/js/ctcgrad.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/js/jquery-ui-selectmenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/js/selectmenu.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/js/spectrum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/js/spectrum.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/lang/child-theme-configurator-de_DE.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/lang/child-theme-configurator-de_DE.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/lang/child-theme-configurator-fr_FR.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/lang/child-theme-configurator-fr_FR.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/lang/child-theme-configurator-sr_RS.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/lang/child-theme-configurator-sr_RS.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/lang/child-theme-configurator.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/screenshot-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/screenshot-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/screenshot-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/screenshot-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/screenshot-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/screenshot-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/child-theme-configurator/screenshot-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/admin/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/admin/css/styles-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/admin/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/admin/includes/admin-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/admin/includes/editor.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/admin/includes/help-tabs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/admin/includes/tag-generator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/admin/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/admin/js/tag-generator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/images/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/capabilities.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/config-validator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/contact-form-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/contact-form-template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/contact-form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/css/styles-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/form-tag.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/form-tags-manager.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/formatting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/integration.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_454545_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_888888_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/l10n.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/pipe.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/rest-api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/shortcodes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/special-mail-tags.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/submission.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/upgrade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/includes/validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/languages/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/acceptance.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/akismet.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/checkbox.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/count.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/date.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/file.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/flamingo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/hidden.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/listo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/number.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/quiz.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/really-simple-captcha.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/recaptcha.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/response.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/select.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/submit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/text.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/modules/textarea.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/uninstall.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/contact-form-7/wp-contact-form-7.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/easy-wp-smtp/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/easy-wp-smtp/easy-wp-smtp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/easy-wp-smtp/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/easy-wp-smtp/languages/easy-wp-smtp.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/easy-wp-smtp/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/easy-wp-smtp/screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/admin/admin-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/admin/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/admin/css/style-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/admin/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/admin/edit-contact-form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/admin/edit-inbound-form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/admin/edit-outbound-form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/admin/includes/class-contacts-list-table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/admin/includes/class-inbound-messages-list-table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/admin/includes/class-outbound-messages-list-table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/admin/includes/meta-boxes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/admin/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/flamingo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/includes/akismet.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/includes/capabilities.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/includes/class-contact.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/includes/class-inbound-message.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/includes/class-outbound-message.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/includes/comment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/includes/csv.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/includes/formatting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/includes/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/includes/user.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/languages/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/flamingo/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/hello.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/try1stplugin/try1stplugin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/boss-child/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/boss-child/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/boss-child/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/boss-child/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/boss-child/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/boss-child/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/boss/content-blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/boss/content-blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/boss/content-single.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/boss/content-single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/boss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/boss/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/tutorial/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/tutorial/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/archive.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/css/colors-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/css/editor-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/css/ie8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/css/ie9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/images/coffee.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/images/espresso.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/images/header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/images/sandwich.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/images/svg-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/js/customize-controls.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/js/customize-preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/js/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/js/html5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/js/navigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/comments.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/front-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/inc/back-compat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/inc/color-patterns.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/inc/custom-header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/inc/customizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/inc/icon-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/inc/template-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/inc/template-tags.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/searchform.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/sidebar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/single.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/header/header-image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/navigation/navigation-top.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/page/content-front-page-panels.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/page/content-front-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/page/content-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/post/content-excerpt.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/post/content-gallery.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/post/content-image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/post/content-none.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/post/content-video.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/twentyseventeen/template-parts/post/content.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/logs/nginx/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/logs/nginx/error.log" afterDir="false" />
-    </list>
+    <list default="true" id="73624fbd-ccbb-4379-a196-8de461840fd6" name="Default" comment="working perfectly" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,13 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/wp-content/plugins/jh-itworks-usercounter/usercounter.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -343,12 +76,67 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectUserFactors">
+    <factor id="binaryFeature:liftShorter" />
+    <factor id="binaryFeature:liftShorterClasses" />
+    <factor id="binaryFeature:middleMatching" />
+    <factor id="binaryFeature:nonGeneric" />
+    <factor id="binaryFeature:prox_inResolveScope" />
+    <factor id="binaryFeature:prox_openedInEditor" />
+    <factor id="binaryFeature:prox_sameDirectory" />
+    <factor id="binaryFeature:prox_sameLogicalRoot" />
+    <factor id="binaryFeature:prox_sdkOrLibrary" />
+    <factor id="binaryFeature:templates" />
+    <factor id="categoricalFeature:accessible" />
+    <factor id="categoricalFeature:expectedType" />
+    <factor id="categoricalFeature:kind" />
+    <factor id="categoricalFeature:prox_groovyReferenceListWeigher" />
+    <factor id="categoricalFeature:prox_javaInheritance" />
+    <factor id="categoricalFeature:prox_referenceList" />
+    <factor id="categoricalFeature:recursion" />
+    <factor id="completionFinishedType">
+      <dailyData date="28-5-2018">
+        <observation name="cancelled" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType" />
+    <factor id="completionUsage">
+      <dailyData date="28-5-2018">
+        <observation name="count" value="20.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:explicitProximity" />
+    <factor id="doubleFeature:grouping" />
+    <factor id="doubleFeature:mostUsed" />
+    <factor id="doubleFeature:nameEnd" />
+    <factor id="doubleFeature:position" />
+    <factor id="doubleFeature:prefix" />
+    <factor id="doubleFeature:priority" />
+    <factor id="doubleFeature:prox_explicitlyImported" />
+    <factor id="doubleFeature:prox_knownElement" />
+    <factor id="doubleFeature:prox_sameModule" />
+    <factor id="doubleFeature:prox_samePsiMember" />
+    <factor id="doubleFeature:query_length" />
+    <factor id="doubleFeature:result_length" />
+    <factor id="doubleFeature:sameWords" />
+    <factor id="doubleFeature:shorter" />
+    <factor id="doubleFeature:simple" />
+    <factor id="doubleFeature:sorter" />
+    <factor id="doubleFeature:statics" />
+    <factor id="doubleFeature:stats" />
+    <factor id="itemPosition" />
+    <factor id="mnemonicsUsage" />
+    <factor id="prefixLength" />
+    <factor id="timeBetweenTyping" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -391,8 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,6 +211,55 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528116683434" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528116683434" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -457,12 +292,20 @@
       <option name="presentableId" value="Default" />
       <updated>1525252296573</updated>
     </task>
+    <task id="LOCAL-00001" summary="working perfectly">
+      <created>1527487647736</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527487647736</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1613" height="1025" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27823868" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28206766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -477,7 +320,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4996809" visible="true" weight="0.27597764" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4996809" visible="true" weight="0.27597764" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50031906" side_tool="true" weight="0.27578476" />
       <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3295964" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -496,7 +339,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="everything installed" />
-    <option name="LAST_COMMIT_MESSAGE" value="everything installed" />
+    <MESSAGE value="working perfectly" />
+    <option name="LAST_COMMIT_MESSAGE" value="working perfectly" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/wp-config-sample.php">

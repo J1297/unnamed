@@ -124,3 +124,9 @@ span.et_pb_image img {
 .et_pb_column.et_pb_column_4_4.et_pb_column_0.et_pb_css_mix_blend_mode_passthrough.et-last-child a{
     color:black;
 }
+/* .entry-content .woocommerce { :: hides Settings in "my account"-management
+    display:none;
+} */ 
+#et-main-area {
+    background: url(Backgrounds-Anime-Landscape-Download.jpg) no-repeat;
+}

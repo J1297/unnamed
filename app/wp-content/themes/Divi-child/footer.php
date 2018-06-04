@@ -27,8 +27,8 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 					
 
 					echo et_get_footer_credits(); */
-					?> <p style=font-size:16px> Platzhalter für etwas sinvolles <br>
-					Zum Beispiel das hier </font></p>
+					?> <p style=font-size:16px> D3 Fly <br>
+					All rights reserved &#169; Copyright </font></p>
 					
 				?>
 					</div>	<!-- .container -->
